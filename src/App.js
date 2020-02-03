@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <HomeMenu />
         <Route exact path="/" component={Home} />
-        <Route path="/javascript" component={JavaScript} />
+        <Route path="/js" component={JavaScript} />
         <Route path="/ruby" component={Ruby} />
         <Route path="/html-css" component={HtmlCss} />
       </div>

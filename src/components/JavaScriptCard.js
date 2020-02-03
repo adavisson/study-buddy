@@ -4,7 +4,7 @@ import JsLogo from '../images/JavaScript-logo.png';
 
 const JavaScriptCard = () => {
   return (
-    <Card href="/javascript">
+    <Card href="/js">
       <Image src={JsLogo} wrapped ui={false}/>
       <Card.Content>
         <Card.Header>JavaScript</Card.Header>
