@@ -90,10 +90,8 @@ const JavaScript = () => {
       setClicked(false);
       if (isIndexFull()){
         setAsked([]);
-        console.log(asked);
       } else {
         setAsked([...asked, index]);
-        console.log(asked);
       }
     } else {
       setCard();

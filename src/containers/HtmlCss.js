@@ -3,7 +3,10 @@ import { Header } from 'semantic-ui-react';
 
 const HtmlCss = () => {
   return (
-    <Header as="h1">HTML/CSS</Header>
+    <div>
+      <Header as="h1">HTML/CSS</Header>
+      <p>These questions are coming soon.</p>
+    </div>
   );
 }
  
