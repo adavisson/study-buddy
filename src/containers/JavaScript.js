@@ -74,21 +74,28 @@ const JavaScript = () => {
   },[]);
 
   const isIndexFull = () => {
-    if (asked.length >= questions.length){
-      setAsked([]);
+    if (asked.length >= (questions.length - 1)){
+      return true;
+    } else {
+      return false;
     }
   }
 
   const setCard = () => {  
+    isIndexFull();
     const index = Math.floor(Math.random() * questions.length);
     if (!asked.includes(index)){
       setCurrentQuestion(questions[index].question);
       setCurrentAnswer(questions[index].answer);
       setClicked(false);
-      setAsked([...asked, index]);
-      console.log(asked);
+      if (isIndexFull()){
+        setAsked([]);
+        console.log(asked);
+      } else {
+        setAsked([...asked, index]);
+        console.log(asked);
+      }
     } else {
-      isIndexFull();
       setCard();
     }
   }
