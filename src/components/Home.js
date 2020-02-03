@@ -9,7 +9,7 @@ const Home = () => {
       <Header as="h1">Study Buddy</Header>
       <div className="card-container">
         <a href="/javascript"><JavaScriptCard /></a>
-        <RubyCard />
+        <a href="/ruby"><RubyCard /></a>
       </div>
     </div>
   );

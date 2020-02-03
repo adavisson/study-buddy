@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Home from './components/Home';
 import JavaScript from './containers/JavaScript';
+import Ruby from './containers/Ruby';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="App">
         <Route exact path="/" component={Home} />
         <Route path="/javascript" component={JavaScript} />
+        <Route path="/ruby" component={Ruby} />
       </div>
     </Router>
   );
