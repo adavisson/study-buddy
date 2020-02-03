@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About
+
+This site provides study questions for various topics that you might see in a coding interview. It also uses semantic-ui-react. It is hosted at https://study-buddy.andydavisson.com
+
 ## Available Scripts
 
 In the project directory, you can run:
