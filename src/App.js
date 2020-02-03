@@ -5,14 +5,15 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-import { Header } from 'semantic-ui-react';
-
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Header as="h1">Study Buddy</Header>
-    </div>
+    <Router>
+      <div className="App">
+        <Route exact path="/" component={Home} />
+      </div>
+    </Router>
   );
 }
 
