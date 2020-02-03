@@ -4,9 +4,9 @@ import JavaScriptCard from './JavaScriptCard';
 
 const Home = () => {
   return (
-    <div>
+    <div className="card-container">
       <Header as="h1">Study Buddy</Header>
-      <JavaScriptCard />
+      <a href="/javascript"><JavaScriptCard /></a>
     </div>
   );
 }

@@ -6,12 +6,14 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './components/Home';
+import JavaScript from './containers/JavaScript';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Route exact path="/" component={Home} />
+        <Route path="/javascript" component={JavaScript} />
       </div>
     </Router>
   );
