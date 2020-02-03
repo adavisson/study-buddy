@@ -5,10 +5,12 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
+import HomeMenu from './components/HomeMenu';
 import Home from './components/Home';
 import JavaScript from './containers/JavaScript';
 import Ruby from './containers/Ruby';
-import HomeMenu from './components/HomeMenu';
+import HtmlCss from './containers/HtmlCss';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/javascript" component={JavaScript} />
         <Route path="/ruby" component={Ruby} />
+        <Route path="/html-css" component={HtmlCss} />
       </div>
     </Router>
   );

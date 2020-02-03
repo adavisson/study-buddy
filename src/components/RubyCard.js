@@ -4,7 +4,7 @@ import RubyLogo from '../images/ruby-logo.png';
 
 const RubyCard = () => {
   return (
-    <Card>
+    <Card href="/ruby">
       <Image src={RubyLogo} wrapped ui={false}/>
       <Card.Content>
         <Card.Header>Ruby</Card.Header>

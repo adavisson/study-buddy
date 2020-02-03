@@ -9,8 +9,8 @@ const Home = () => {
     <div>
       <Header as="h1">Study Buddy</Header>
       <div className="card-container">
-        <a href="/javascript"><JavaScriptCard /></a>
-        <a href="/ruby"><RubyCard /></a>
+        <JavaScriptCard />
+        <RubyCard />
         <HtmlCssCard />
       </div>
     </div>
