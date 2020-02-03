@@ -19,6 +19,7 @@ code {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 15px;
 }
 
 div.ui.menu {
