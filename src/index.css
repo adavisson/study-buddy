@@ -24,6 +24,7 @@ code {
 
 div.ui.menu {
   background-color: lightseagreen;
+  border-radius: 0px;
 }
 
 div.ui.menu a.item {
