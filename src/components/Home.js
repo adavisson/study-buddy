@@ -1,12 +1,16 @@
 import React from 'react';
 import { Header } from 'semantic-ui-react';
 import JavaScriptCard from './JavaScriptCard';
+import RubyCard from './RubyCard';
 
 const Home = () => {
   return (
-    <div className="card-container">
+    <div>
       <Header as="h1">Study Buddy</Header>
-      <a href="/javascript"><JavaScriptCard /></a>
+      <div className="card-container">
+        <a href="/javascript"><JavaScriptCard /></a>
+        <RubyCard />
+      </div>
     </div>
   );
 }
