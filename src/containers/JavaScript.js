@@ -1,11 +1,7 @@
-import React, {useState, useEffect} from 'react';
-import { Header, Card, Button } from 'semantic-ui-react';
+import React from 'react';
+import FlashCard from './FlashCard';
 
 const JavaScript = () => {
-  const [currentQuestion, setCurrentQuestion] = useState("");
-  const [currentAnswer, setCurrentAnswer] = useState("");
-  const [clicked, setClicked] = useState(false);
-  const [asked, setAsked] = useState([]);
   const questions = [
     {
       question: 'What is a Closure?',
@@ -69,58 +65,9 @@ const JavaScript = () => {
     }
   ]
 
-  useEffect(() => {
-    setCard();
-  },[]);
-
-  const isIndexFull = () => {
-    if (asked.length >= (questions.length - 1)){
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  const setCard = () => {  
-    isIndexFull();
-    const index = Math.floor(Math.random() * questions.length);
-    if (!asked.includes(index)){
-      setCurrentQuestion(questions[index].question);
-      setCurrentAnswer(questions[index].answer);
-      setClicked(false);
-      if (isIndexFull()){
-        setAsked([]);
-      } else {
-        setAsked([...asked, index]);
-      }
-    } else {
-      setCard();
-    }
-  }
-
-  const buttonClick = e => {
-    if (clicked){
-      setClicked(false);
-    } else {
-      setClicked(true);
-    }
-  }
-
   return (
     <div>
-      <Header as="h1">JavaScript</Header>
-      <div className="card-container">
-        <Card>
-          <Card.Content>
-            <Card.Header>{currentQuestion}</Card.Header>
-            <Card.Description>
-              {!clicked && <Button onClick={buttonClick}>See Answer</Button>}
-              {clicked && currentAnswer}
-            </Card.Description>
-          </Card.Content>
-        </Card>
-      </div>
-      <Button onClick={setCard}>New Card</Button>
+      <FlashCard subject={"JavaScript"} questions={questions} />
     </div>
   );
 }
