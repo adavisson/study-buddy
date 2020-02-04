@@ -10,6 +10,7 @@ import Home from './components/Home';
 import JavaScript from './containers/JavaScript';
 import Ruby from './containers/Ruby';
 import HtmlCss from './containers/HtmlCss';
+import Testing from './containers/Testing';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/js" component={JavaScript} />
         <Route path="/ruby" component={Ruby} />
         <Route path="/html-css" component={HtmlCss} />
+        <Route path="/testing" component={Testing} />
       </div>
     </Router>
   );

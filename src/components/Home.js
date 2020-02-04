@@ -3,6 +3,7 @@ import { Header } from 'semantic-ui-react';
 import JavaScriptCard from './JavaScriptCard';
 import RubyCard from './RubyCard';
 import HtmlCssCard from './HtmlCssCard';
+import TestingCard from './TestingCard';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <JavaScriptCard />
         <RubyCard />
         <HtmlCssCard />
+        <TestingCard />
       </div>
     </div>
   );

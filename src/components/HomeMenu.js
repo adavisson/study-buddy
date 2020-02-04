@@ -36,6 +36,12 @@ const HomeMenu = () => {
             onClick={handleItemClick}
             href="/html-css"
           >HTML/CSS</Dropdown.Item>
+          <Dropdown.Item
+            name="testing"
+            active={activeItem === 'testing'}
+            onClick={handleItemClick}
+            href="/testing"
+          >Testing</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     </Menu>
