@@ -25,6 +25,12 @@ const HomeMenu = () => {
             href="/js"
           >JavaScript</Dropdown.Item>
           <Dropdown.Item
+            name='react-redux'
+            active={activeItem === 'react-redux'}
+            onClick={handleItemClick}
+            href="/react-redux"
+          >React/Redux</Dropdown.Item>
+          <Dropdown.Item
             name='ruby'
             active={activeItem === 'ruby'}
             onClick={handleItemClick}

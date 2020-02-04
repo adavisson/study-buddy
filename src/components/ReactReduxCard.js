@@ -4,7 +4,7 @@ import ReactLogo from '../images/react-logo.png';
 
 const ReactReduxCard = () => {
   return (
-    <Card href="/react_redux">
+    <Card href="/react-redux">
       <Image src={ReactLogo} wrapped ui={false}/>
       <Card.Content>
         <Card.Header>React/Redux</Card.Header>
