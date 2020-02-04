@@ -18,7 +18,7 @@ code {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   margin: 15px;
 }
 
@@ -27,7 +27,7 @@ div.ui.menu {
   border-radius: 0px;
 }
 
-div.ui.menu a.item {
+div.ui.menu a.item:first-child {
   font-weight: bold;
 }
 

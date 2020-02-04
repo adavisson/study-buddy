@@ -11,11 +11,11 @@ const HomeMenu = () => {
   return (
     <Menu>
       <Menu.Item
-            name='home'
-            active={activeItem === 'home'}
-            onClick={handleItemClick}
-            href="/"
-          >Home</Menu.Item>
+        name='home'
+        active={activeItem === 'home'}
+        onClick={handleItemClick}
+        href="/"
+      >Home</Menu.Item>
       <Dropdown item text='Categories'>
         <Dropdown.Menu>
           <Dropdown.Item
@@ -44,6 +44,12 @@ const HomeMenu = () => {
           >Testing</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
+      <Menu.Item
+        name='about'
+        active={activeItem === 'about'}
+        onClick={handleItemClick}
+        href="/about"
+      >About</Menu.Item>
     </Menu>
   );
 }

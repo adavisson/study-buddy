@@ -11,6 +11,7 @@ import JavaScript from './containers/JavaScript';
 import Ruby from './containers/Ruby';
 import HtmlCss from './containers/HtmlCss';
 import Testing from './containers/Testing';
+import About from './components/About';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/ruby" component={Ruby} />
         <Route path="/html-css" component={HtmlCss} />
         <Route path="/testing" component={Testing} />
+        <Route path="/about" component={About} />
       </div>
     </Router>
   );
