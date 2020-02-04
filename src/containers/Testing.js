@@ -15,11 +15,11 @@ const Testing = () => {
       question: 'What is System Testing?',
       answer: 'Testing that validates the complete and fully integrated software product.'
     }
-  ]
+  ];
 
   return (
     <div>
-      <FlashCard subject={Testing} questions={questions} />
+      <FlashCard subject={"Testing"} questions={questions} />
     </div>
   );
 }
