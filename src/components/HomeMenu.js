@@ -44,12 +44,20 @@ const HomeMenu = () => {
           >Testing</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      <Menu.Item
+      {/* <Menu.Item
         name='about'
         active={activeItem === 'about'}
         onClick={handleItemClick}
         href="/about"
-      >About</Menu.Item>
+      >About</Menu.Item> */}
+      <Menu.Menu position="right">
+        <Menu.Item
+          name='website'
+          active={activeItem === 'website'}
+          onClick={handleItemClick}
+          href="https://andydavisson.com"
+        >andydavisson.com</Menu.Item>
+      </Menu.Menu>
     </Menu>
   );
 }
