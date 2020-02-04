@@ -44,12 +44,6 @@ const HomeMenu = () => {
           >Testing</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
-      {/* <Menu.Item
-        name='about'
-        active={activeItem === 'about'}
-        onClick={handleItemClick}
-        href="/about"
-      >About</Menu.Item> */}
       <Menu.Menu position="right">
         <Menu.Item
           name='website'
