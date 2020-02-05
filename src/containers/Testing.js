@@ -17,7 +17,7 @@ const Testing = () => {
     },
     {
       question: 'Describe TDD...',
-      answer: 'Test-Driven Develpment is where you write your tests before writing your code. Helps your functionality conform to requirements and discourages opinionated code/tests.'
+      answer: 'Test-Driven Development is where you write your tests before writing your code. Helps your functionality conform to requirements and discourages opinionated code/tests.'
     },
     {
       question: 'When using Mocha, what does "describe" do?',
@@ -41,7 +41,7 @@ const Testing = () => {
     },
     {
       question: 'When using Mocha, what does "afterEach" do?',
-      answer: '"afterEach" goes insded "describe" and runs after EVERY test in that group. Can be very expensive'
+      answer: '"afterEach" goes inside "describe" and runs after EVERY test in that group. Can be very expensive'
     },
     {
       question: 'What is Chai?',
