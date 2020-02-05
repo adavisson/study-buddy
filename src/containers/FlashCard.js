@@ -58,7 +58,7 @@ const FlashCard = (props) => {
           </Card.Content>
         </Card>
       </div>
-      <Button onClick={setCard}>New Card</Button>
+      <Button onClick={setCard}>New Flashcard</Button>
     </div>
   );
 }
