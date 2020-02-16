@@ -1,8 +1,18 @@
 import React from 'react';
+import FlashCard from './FlashCard';
 
 const General = () => {
+  const questions = [
+    {
+      question: "Who are you?",
+      answer: "Andrew"
+    }
+  ]
+
   return (
-    <h1>General Programming Questions</h1>
+    <div>
+      <FlashCard subject={"General Programming"} questions={questions} />
+    </div>
   );
 }
  
