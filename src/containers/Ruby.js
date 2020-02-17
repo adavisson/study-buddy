@@ -8,11 +8,11 @@ const Ruby = () => {
       answer: 'A module is a collection of methods and constants, but it cannot generate instances. A class may inherit from another class, but not from a module. A module may not inherit from anything.'
     },
     {
-      question: 'What is an Object',
+      question: 'What is an Object in Ruby?',
       answer: 'Everything in Ruby is an object.'
     },
     {
-      question: 'What is the "self" keyword',
+      question: 'What is the "self" keyword?',
       answer: '"Self" refers to the object that is currently in context.'
     },
     {
@@ -40,18 +40,6 @@ const Ruby = () => {
       answer: 'The model in MVC. Objects carry both persistent data and behavior which operates on that data.'
     },
     {
-      question: 'What is ORM?',
-      answer: 'Object Relational Mapping. A technique that connects the rich objects of an application to tables in a relational database management system.'
-    },
-    {
-      question: 'What is DRY?',
-      answer: 'Don’t Repeat Yourself. DRY code lacks redundancy and repetition.'
-    },
-    {
-      question: 'What is Code Smell?',
-      answer: 'Any characteristic in the source code of a program that possibly indicates a deeper problem.'
-    },
-    {
       question: 'What is Rails?',
       answer: 'A framework used for building a web application.'
     },
@@ -62,10 +50,6 @@ const Ruby = () => {
     {
       question: 'What is Sinatra?',
       answer: 'Sinatra is a Domain Specific Language (DSL) for quickly creating web applications in Ruby with minimal effort.'
-    },
-    {
-      question: 'What are Restful Routes?',
-      answer: 'A set of principles that provide a way of mapping HTTP verbs and CRUD actions.'
     }
   ];
 
