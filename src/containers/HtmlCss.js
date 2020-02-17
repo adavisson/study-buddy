@@ -38,6 +38,14 @@ const HtmlCss = () => {
     {
       question: 'What is the iframe tag used for?',
       answer: 'An iframe is used to display a web page within a web page.'
+    },
+    {
+      question: 'What is Bootstrap?',
+      answer: 'Bootstrap is CSS/Javascript framework for building the rich web applications with minimal effort. This framework emphasis more on building mobile web applications.'
+    },
+    {
+      question: 'What is a CSS preprocessor?',
+      answer: "A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax."
     }
   ];
 
