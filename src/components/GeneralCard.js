@@ -7,7 +7,7 @@ const GeneralCard = () => {
     <Card href="/general">
       <Image src={GeneralLogo} wrapped ui={false}/>
       <Card.Content>
-        <Card.Header>Genearl Logo</Card.Header>
+        <Card.Header>General</Card.Header>
       </Card.Content>
     </Card>
   );
