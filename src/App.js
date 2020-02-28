@@ -12,6 +12,7 @@ import HtmlCss from './containers/HtmlCss';
 import Testing from './containers/Testing';
 import ReactRedux from './containers/ReactRedux';
 import General from './containers/General';
+import Java from './containers/Java';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <HomeMenu />
         <Route exact path="/" component={Home} />
         <Route path="/general" component={General} />
+        <Route path="/java" component={Java} />
         <Route path="/js" component={JavaScript} />
         <Route path="/react-redux" component={ReactRedux} />
         <Route path="/ruby" component={Ruby} />

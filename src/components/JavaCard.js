@@ -4,7 +4,7 @@ import JavaLogo from '../images/java-logo.jpg';
 
 const JavaCard = () => {
   return (
-    <Card href="/js">
+    <Card href="/java">
       <Image src={JavaLogo} wrapped ui={false}/>
       <Card.Content>
         <Card.Header>Java</Card.Header>
