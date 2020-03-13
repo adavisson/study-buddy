@@ -12,7 +12,7 @@ const ReactRedux = () => {
       answer: 'Does not have state, but receives props.'
     },
     {
-      question: 'Describe the 3 Principles of React...',
+      question: 'Describe the 3 Principles of Redux...',
       answer: '1) The state of the whole application is stored in an object tree within a single store. \n 2) The only way to change the state is to emit an action. \n 3) Changes are made with pure functions.'
     },
     {
