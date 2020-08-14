@@ -53,6 +53,10 @@ const General = () => {
       answer:
         'A. High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g. interfaces). B. Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.',
     },
+    {
+      question: 'Explain the difference between composition and inheritance.',
+      answer: 'Inheritance is a "is-a" relationship, where Composition is a "has-a" relationship.'
+    }
   ]
 
   return (
