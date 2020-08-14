@@ -15,7 +15,7 @@ const ReactRedux = () => {
     {
       question: 'Describe the 3 Principles of Redux...',
       answer:
-        '1) The state of the whole application is stored in an object tree within a single store. \n 2) The only way to change the state is to emit an action. \n 3) Changes are made with pure functions.',
+        '1) The state of the whole application is stored in an object tree within a single store. 2) The only way to change the state is to emit an action. 3) Changes are made with pure functions.',
     },
     {
       question: 'What are the 3 parts of Redux?',
@@ -39,6 +39,18 @@ const ReactRedux = () => {
       question: 'What is a Stateful Component?',
       answer: 'Depends on its own state and can change that state.',
     },
+    {
+      question: 'List the lifecycle methods and explain them.',
+      answer: 'Mount: constructor(), static getDerivedStateFromProps(), render(), componentDidMount(). Updating: static getDerivedStateFromProps(), shouldComponentUpdate(), render(), getSnapshotBeforeUpdate(), componentDidUpdate(). Unmount: componentWillUnmount(). Error Handling: static getDerivedStateFromError(), componentDidCatch().'
+    },
+    {
+      question: 'What are React hooks?',
+      answer: 'A feature introduced in React 16.8 that allows you to use state and other features in functional components. No longer need class components.'
+    },
+    {
+      question: 'List the 3 basic React hooks.',
+      answer: 'useState, useEffect, useContext'
+    }
   ]
 
   return (
