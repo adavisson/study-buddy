@@ -41,16 +41,28 @@ const ReactRedux = () => {
     },
     {
       question: 'List the lifecycle methods and explain them.',
-      answer: 'Mount: constructor(), static getDerivedStateFromProps(), render(), componentDidMount(). Updating: static getDerivedStateFromProps(), shouldComponentUpdate(), render(), getSnapshotBeforeUpdate(), componentDidUpdate(). Unmount: componentWillUnmount(). Error Handling: static getDerivedStateFromError(), componentDidCatch().'
+      answer:
+        'Mount: constructor(), static getDerivedStateFromProps(), render(), componentDidMount(). Updating: static getDerivedStateFromProps(), shouldComponentUpdate(), render(), getSnapshotBeforeUpdate(), componentDidUpdate(). Unmount: componentWillUnmount(). Error Handling: static getDerivedStateFromError(), componentDidCatch().',
     },
     {
       question: 'What are React hooks?',
-      answer: 'A feature introduced in React 16.8 that allows you to use state and other features in functional components. No longer need class components.'
+      answer:
+        'A feature introduced in React 16.8 that allows you to use state and other features in functional components. No longer need class components.',
     },
     {
       question: 'List the 3 basic React hooks.',
-      answer: 'useState, useEffect, useContext'
-    }
+      answer: 'useState, useEffect, useContext',
+    },
+    {
+      question: 'What are the major features of React?',
+      answer:
+        'Uses a VirtualDOM, Supports server-side rendering, Follows Unidirectional data flow, Uses reusable/composable UI components.',
+    },
+    {
+      question: 'Why should you not update the state directly?',
+      answer:
+        'Changing the state directly, without using setState() will cause the component not to rerender.',
+    },
   ]
 
   return (
