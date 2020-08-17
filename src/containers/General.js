@@ -56,6 +56,26 @@ const General = () => {
     {
       question: 'Explain the difference between composition and inheritance.',
       answer: 'Inheritance is a "is-a" relationship, where Composition is a "has-a" relationship.'
+    },
+    {
+      question: 'What are the four principles of Object-Oriented programming?',
+      answer: 'Encapsulation, Data Abstraction, Polymorphism, Inheritance'
+    },
+    {
+      question: 'Explain encapsulation as it relates to Object-Oriented programming.',
+      answer: 'Encapsulation is the mechanism of hiding data by restricting access to private variables through public accessor methods.'
+    },
+    {
+      question: 'Explain Abstraction as it relates to Object-Oriented programming.',
+      answer: 'The idea that one class should not need to know about the inner details of another in order to use it, just knowing the interfaces should be enough.'
+    },
+    {
+      question: 'Explain Inheritance as it relates to Object-Oriented programming.',
+      answer: 'Inheritance expresses an "is-a" relationship. Allows classes to reuse code from an existing super class.'
+    },
+    {
+      question: 'Explain Polymorphism as it relates to Object-Oriented programming.',
+      answer: 'Polymorphism means one name many forms. Static polymorphism is achieved through method overloading and dynamic polymorphism is achieved through method overriding.'
     }
   ]
 
